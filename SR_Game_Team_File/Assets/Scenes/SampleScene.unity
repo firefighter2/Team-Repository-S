@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 581988835}
   - component: {fileID: 581988834}
   - component: {fileID: 581988833}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AdjustedColor: {r: 0.5292903, g: 1, b: 0.2028302, a: 0}
   grassLimit: 50000
-  toolbarInt: 2
+  toolbarInt: 0
   positions: []
   colors: []
   indicies: 
@@ -372,7 +372,7 @@ MonoBehaviour:
   sizeWidth: 1
   sizeLength: 1
   density: 7.64
-  normalLimit: 0.058
+  normalLimit: 0.686
   rangeR: 1
   rangeG: 1
   rangeB: 1
@@ -382,9 +382,9 @@ MonoBehaviour:
   paintMask:
     serializedVersion: 2
     m_Bits: 1
-  brushSize: 4.72
-  hitPosGizmo: {x: -30.212612, y: 1, z: 46.34098}
-  hitNormal: {x: 0, y: 1, z: 4.8842873e-18}
+  brushSize: 10
+  hitPosGizmo: {x: 24.44842, y: 1, z: -44.34565}
+  hitNormal: {x: 0, y: 1, z: 4.8842865e-18}
 --- !u!23 &908232605
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -433,8 +433,8 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908232602}
-  m_Mesh: {fileID: 1661778825}
---- !u!43 &1661778825
+  m_Mesh: {fileID: 1227057415}
+--- !u!43 &1227057415
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
